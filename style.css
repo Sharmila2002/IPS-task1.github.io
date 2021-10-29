@@ -1,0 +1,120 @@
+ *{
+     margin:0px;
+     padding:0px;
+     box-sizing: border-box;
+}
+ .head{
+     width:100%;
+     min-height:100vh;
+     background:linear-gradient(rgba(0,0,0,0.55),rgba(70, 21, 21, 0.65)) ,url("taj.jpg");
+     background-size: cover;
+     background-position:center;
+     position: relative;
+}
+nav{
+    padding:30px 3%;
+    align-items:center;
+    display: flex;
+}
+nav ul{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin:10px 30px;
+
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 35;
+    font-weight: bold;
+
+}
+.logo{
+    width: 32px;
+    cursor: pointer;
+}
+.menu_bar{
+    width: 32px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.connect a{
+    color:white;
+    text-decoration: none;
+    margin: 0 25px;
+}
+.connect{
+    transform:rotate(90deg) translate(-100%);
+    transform-origin: left;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+.Straight-line{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 7%;
+    width: 4px;
+    background:rgba(255,205,205,0.3) ;
+
+}
+.row{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 8%;
+}
+.row span{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.row span img{
+    width: 8%;
+    margin-right: 15px;
+}
+.info span{
+    font-size: 20px;
+}
+.info h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.info p{
+    font-size: 18px;
+}
+.row span.sun{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.row span.sun img{
+    width: 30px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.add-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 30px;
+    width: 75%;
+    left:12.5%;
+
+}
+.add-arrow img{
+    width:60px;
+    cursor: pointer;
+}
+
